@@ -1,0 +1,16 @@
+.NavLeft .Icon {
+  height: 80px;
+  line-height: 80px;
+}
+.NavLeft .Icon img {
+  height: 40px;
+  width: 40px;
+  margin-left: 12px;
+  margin-right: 5px;
+}
+.NavLeft .Icon h1 {
+  display: inline;
+  text-align: right;
+  color: #fff;
+  font-size: 20px;
+}

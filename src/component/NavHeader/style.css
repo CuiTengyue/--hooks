@@ -1,0 +1,27 @@
+.NavHeader .header_top {
+  background: #fff;
+  text-align: right;
+}
+.NavHeader .header_bottom {
+  padding: 0 40px;
+  height: 40px;
+  border-top: 1px solid #09f;
+  background: #fff;
+}
+.NavHeader .header_bottom .pagetitle {
+  position: relative;
+  width: 80px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.NavHeader .header_bottom .pagetitle::after {
+  position: absolute;
+  content: '';
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-top: 12px solid red;
+  left: 22%;
+  bottom: 0;
+  transform: translate(-50%, 90%);
+}
